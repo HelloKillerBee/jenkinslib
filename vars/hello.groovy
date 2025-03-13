@@ -1,3 +1,3 @@
-def call(){
-  println("hello,world!")
+def call(String name = "Guest") {
+    echo "Hello, ${name}! 👋"
 }
