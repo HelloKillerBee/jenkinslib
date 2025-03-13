@@ -1,6 +1,11 @@
-package org.devops
+package org.devops  // 声明包名
 
-// 打印内容
-def PrintMes(content){
-  println(content)
+class Tool {
+    def build() {
+        echo "Building with Tool class! 🔨"
+    }
+  
+    def deploy() {
+        echo "Deploying with Tool class! 🚀"
+    }
 }
